@@ -1,1 +1,5 @@
-keebcoin.com
+$ dig keebcoin.com +nostats +nocomments +nocmd
+    > ;WWW.keebcoin.COM.                     IN      A
+    > WWW.keebcoin.COM.              3592    IN      CNAME   keebcoin.github.io.
+    > keebcoin.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
